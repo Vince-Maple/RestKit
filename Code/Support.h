@@ -29,3 +29,7 @@
 #import "RKNSJSONSerialization.h"
 #import "RKMIMETypeSerialization.h"
 #import "RKStringTokenizer.h"
+
+#define IS_APP_EXTENSION [[[NSBundle mainBundle] executablePath] containsString:@".appex/"]
+
+@end
